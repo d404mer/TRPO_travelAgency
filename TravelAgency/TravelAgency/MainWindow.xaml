@@ -1,0 +1,29 @@
+﻿<Window x:Class="TravelAgency.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TravelAgency"
+        mc:Ignorable="d"
+        Title="КУДАхтер. Выбор между курицей и рыбой очевиден"
+        Height="450" Width="800">
+    <Grid Background="{StaticResource PrimaryBrush}">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="307*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0" Margin="15,0,0,0" VerticalAlignment="Center">
+        <Button Content="Бронирование" Width="150" Click="ShowBooking"/>
+        <Button Content="Туры" Width="150" Click="ShowTours"/>
+        <Button Content="Страны" Width="150" Click="ShowCountries"/>
+        <Button Content="Гиды" Width="150" Click="ShowGuides"/>
+        <Button Content="Отели" Width="150" Click="ShowHotels"/>
+        <Button Content="Агенты" Width="150" Click="ShowAgents"/>
+        <Button Content="Гиды-Туры" Width="150" Click="ShowTourGuides"/>
+        <Button Content="Генерация отчётов" Width="150" Click="ShowReports"/>
+        </StackPanel>
+
+        <!-- ПОДГРУЗКА ТАБЛИЦЫ СЮДА -->
+        <ContentControl Grid.Column="1" x:Name="ContentArea"/>
+    </Grid>
+</Window>
