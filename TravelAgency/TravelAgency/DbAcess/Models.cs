@@ -35,16 +35,16 @@ namespace TravelAgency.DbAcess
         public int Guid_ID { get; set; }
     }
 
-    public class Agent
-    {
-        public string Agent_Name { get; set; }  // PK
-        public string Name { get; set; }
-        public string Password { get; set; }
-        public string Role { get; set; }
-        public string Last_Name { get; set; }
-        public string Phone_Number { get; set; }
-        public string Email { get; set; }
-    }
+   public class Agent
+{
+    public string Agent_Name { get; set; }
+    public string Name { get; set; }
+    public string Last_Name { get; set; }
+    public string Role { get; set; }
+    public string Phone_Number { get; set; }
+    public string Email { get; set; }
+    public string Password { get; set; } // Добавлено свойство для пароля
+}
 
     public class Hotel
     {

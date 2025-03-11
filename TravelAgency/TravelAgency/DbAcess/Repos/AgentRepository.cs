@@ -58,15 +58,20 @@ namespace TravelAgency.DbAcess.Repos
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
                 string query = @"UPDATE Agents 
-                         SET Name = @AgentName, 
-                             Role = @AgentType, 
-                             Phone_Number = @Phone 
+                         SET Name = @Name, 
+                             Last_Name = @LastName,
+                             Role = @Role, 
+                             Phone_Number = @Phone, 
+                             Email = @Email
                          WHERE Agent_Name = @AgentName";
 
                 SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@AgentName", agent.Agent_Name);
-                command.Parameters.AddWithValue("@AgentType", agent.Role);
+                command.Parameters.AddWithValue("@Name", agent.Name);
+                command.Parameters.AddWithValue("@LastName", agent.Last_Name);
+                command.Parameters.AddWithValue("@Role", agent.Role);
                 command.Parameters.AddWithValue("@Phone", agent.Phone_Number);
+                command.Parameters.AddWithValue("@Email", agent.Email);
 
                 try
                 {
@@ -78,6 +83,59 @@ namespace TravelAgency.DbAcess.Repos
                 {
                     Console.WriteLine($"Ошибка при обновлении агента: {ex.Message}");
                     return false;
+                }
+            }
+        }
+
+        public static bool AddAgent(Agent agent)
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = @"INSERT INTO Agents (Agent_Name, Name, Last_Name, Role, Phone_Number, Email, Password) 
+                         VALUES (@AgentName, @Name, @LastName, @Role, @Phone, @Email, @Password)";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@AgentName", agent.Agent_Name);
+                command.Parameters.AddWithValue("@Name", agent.Name);
+                command.Parameters.AddWithValue("@LastName", agent.Last_Name);
+                command.Parameters.AddWithValue("@Role", agent.Role);
+                command.Parameters.AddWithValue("@Phone", agent.Phone_Number);
+                command.Parameters.AddWithValue("@Email", agent.Email);
+                command.Parameters.AddWithValue("@Password", agent.Password);
+
+                try
+                {
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected > 0; // Возвращает true, если агент был добавлен
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при добавлении агента: {ex.Message}");
+                    return false; // Возвращает false в случае ошибки
+                }
+            }
+        }
+
+        public static bool DeleteAgent(string agentName)
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = @"DELETE FROM Agents WHERE Agent_Name = @AgentName";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@AgentName", agentName);
+
+                try
+                {
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected > 0; // Возвращает true, если агент был удален
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при удалении агента: {ex.Message}");
+                    return false; // Возвращает false в случае ошибки
                 }
             }
         }

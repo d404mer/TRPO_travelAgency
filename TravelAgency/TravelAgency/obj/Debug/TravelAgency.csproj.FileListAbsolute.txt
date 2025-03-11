@@ -33,3 +33,5 @@ D:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\obj\Debug\UserControls\To
 D:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\obj\Debug\UserControls\ToursView.baml
 D:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\obj\Debug\EditViews\EditAgentWindow.g.cs
 D:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\obj\Debug\EditViews\EditAgentWindow.baml
+D:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\obj\Debug\AddViews\AddAgentWindow.g.cs
+D:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\obj\Debug\AddViews\AddAgentWindow.baml

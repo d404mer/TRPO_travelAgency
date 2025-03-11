@@ -8,6 +8,7 @@ using TravelAgency.DbAcess;
 using TravelAgency.EditViews;
 using TravelAgency.DbAcess.Repos;
 using System.Data.SqlClient;
+using TravelAgency.AddViews;
 
 namespace TravelAgency.UserControls
 {
@@ -145,6 +146,94 @@ namespace TravelAgency.UserControls
                     return false;
                 }
             }
+        }
+
+        // Метод для добавления нового агента
+        private void AddAgentButton_Click(object sender, RoutedEventArgs e)
+        {
+            AddAgentWindow addAgentWindow = new AddAgentWindow();
+            if (addAgentWindow.ShowDialog() == true)
+            {
+                LoadAgents(); // Обновляем список агентов после добавления
+            }
+        }
+
+        // Метод для удаления выбранного агента
+        private void DeleteAgentButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (_selectedAgent != null)
+            {
+                var result = MessageBox.Show($"Вы уверены, что хотите удалить агента {_selectedAgent.Agent_Name}?", "Подтверждение удаления", MessageBoxButton.YesNo);
+                if (result == MessageBoxResult.Yes)
+                {
+                    bool success = AgentRepository.DeleteAgent(_selectedAgent.Agent_Name);
+                    if (success)
+                    {
+                        LoadAgents(); 
+                    }
+                    else
+                    {
+                        MessageBox.Show("Ошибка при удалении агента.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Пожалуйста, выберите агента для удаления.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        public bool DeleteAgent(string agentName)
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = @"DELETE FROM Agents WHERE Agent_Name = @AgentName";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@AgentName", agentName);
+
+                try
+                {
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected > 0; // Возвращает true, если агент был удален
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при удалении агента: {ex.Message}");
+                    return false; // Возвращает false в случае ошибки
+                }
+            }
+        }
+
+        public bool AddAgent(Agent agent)
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = @"INSERT INTO Agents (Agent_Name, Name, Last_Name, Role, Phone_Number, Email) 
+                                 VALUES (@AgentName, @Name, @LastName, @Role, @Phone, @Email)";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@AgentName", agent.Agent_Name);
+                command.Parameters.AddWithValue("@Name", agent.Name);
+                command.Parameters.AddWithValue("@LastName", agent.Last_Name);
+                command.Parameters.AddWithValue("@Role", agent.Role);
+                command.Parameters.AddWithValue("@Phone", agent.Phone_Number);
+                command.Parameters.AddWithValue("@Email", agent.Email);
+
+                try
+                {
+                    connection.Open();
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected > 0; // Возвращает true, если агент был добавлен
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при добавлении агента: {ex.Message}");
+                    return false; // Возвращает false в случае ошибки
+                }
+            }
+        LoadAgents(); 
         }
     }
 }

@@ -37,15 +37,21 @@ namespace TravelAgency.EditViews
         private void LoadAgentData()
         {
             AgentNameTextBox.Text = _agent.Agent_Name;
+            NameTextBox.Text = _agent.Name;
+            LastNameTextBox.Text = _agent.Last_Name;
             AgentTypeTextBox.Text = _agent.Role;
             PhoneTextBox.Text = _agent.Phone_Number;
+            EmailTextBox.Text = _agent.Email;
         }
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
-            _agent.Agent_Name = AgentNameTextBox.Text;
-            _agent.Role= AgentTypeTextBox.Text;
+            // _agent.Agent_Name = AgentNameTextBox.Text; // Удалено, чтобы не изменять Agent_Name
+            _agent.Name = NameTextBox.Text;
+            _agent.Last_Name = LastNameTextBox.Text;
+            _agent.Role = AgentTypeTextBox.Text;
             _agent.Phone_Number = PhoneTextBox.Text;
+            _agent.Email = EmailTextBox.Text;
 
             // Сохраняем изменения в базу
             AgentRepository.UpdateAgent(_agent);

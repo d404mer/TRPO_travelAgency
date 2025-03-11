@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="AddViews\AddAgentWindow.xaml.cs">
+      <DependentUpon>AddAgentWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DbAcess\Models.cs" />
     <Compile Include="DbAcess\Repos\AgentRepository.cs" />
     <Compile Include="EditViews\EditAgentWindow.xaml.cs">
@@ -84,6 +87,10 @@
     <Compile Include="UserControls\ToursView.xaml.cs">
       <DependentUpon>ToursView.xaml</DependentUpon>
     </Compile>
+    <Page Include="AddViews\AddAgentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EditViews\EditAgentWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
