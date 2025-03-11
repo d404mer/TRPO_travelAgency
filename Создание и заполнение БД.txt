@@ -1,0 +1,90 @@
+CREATE TABLE Country (
+    Country_ID INT PRIMARY KEY,
+    Country_Name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Tour (
+    Tour_ID INT PRIMARY KEY,
+    Tour_Name VARCHAR(100) NOT NULL,
+    Country_ID INT,
+    Stay_Time INT,
+    Price DECIMAL(10, 2),
+    FOREIGN KEY (Country_ID) REFERENCES Country(Country_ID)
+);
+
+CREATE TABLE Guid (
+    Guid_ID INT PRIMARY KEY,
+    Guid_Name VARCHAR(100) NOT NULL,
+    Guid_Lastname VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Tour_Guid (
+    Tour_Guid_ID INT PRIMARY KEY,
+    Tour_ID INT,
+    Guid_ID INT,
+    FOREIGN KEY (Tour_ID) REFERENCES Tour(Tour_ID),
+    FOREIGN KEY (Guid_ID) REFERENCES Guid(Guid_ID)
+);
+
+
+CREATE TABLE Agent (
+    Agent_Name VARCHAR(100) PRIMARY KEY,
+    Name VARCHAR(100) NOT NULL,
+    Password VARCHAR(100) NOT NULL,
+    Role VARCHAR(50),
+    Last_Name VARCHAR(100),
+    Phone_Number VARCHAR(20),
+    Email VARCHAR(100)
+);
+
+CREATE TABLE Hotel (
+    Hotel_ID INT PRIMARY KEY,
+    Hotel_Name VARCHAR(100) NOT NULL,
+    Stars INT,
+    Price_Per_Night DECIMAL(10, 2)
+);
+
+CREATE TABLE Book (
+    Book_ID INT PRIMARY KEY,
+    Agent_ID VARCHAR(100),
+    Tour_ID INT,
+    Date_Of_Book DATE,
+    Hotel_ID INT,
+    Price DECIMAL(10, 2),
+    FOREIGN KEY (Agent_ID) REFERENCES Agent(Agent_Name),
+    FOREIGN KEY (Tour_ID) REFERENCES Tour(Tour_ID),
+    FOREIGN KEY (Hotel_ID) REFERENCES Hotel(Hotel_ID)
+);
+
+
+
+-- Заполнение таблицы Country
+INSERT INTO Country VALUES (1, 'France'), (2, 'Italy'), (3, 'Spain');
+
+-- Заполнение таблицы Tour
+INSERT INTO Tour VALUES (1, 'Paris Trip', 1, 5, 500.00),
+                        (2, 'Rome Adventure', 2, 7, 700.00),
+                        (3, 'Barcelona Escape', 3, 4, 400.00);
+
+-- Заполнение таблицы Guid
+INSERT INTO Guid VALUES (1, 'John', 'Doe'),
+                        (2, 'Anna', 'Smith'),
+                        (3, 'Luis', 'Garcia');
+
+-- Заполнение таблицы Tour_Guid
+INSERT INTO Tour_Guid VALUES (1, 1, 1),
+                             (2, 2, 2),
+                             (3, 3, 3);
+
+-- Заполнение таблицы Agent
+INSERT INTO Agent VALUES ('agent001', 'Michael', 'pass123', 'Manager', 'Scott', '123456789', 'michael@agency.com'),
+                         ('agent002', 'Dwight', 'beetpass', 'Salesman', 'Schrute', '987654321', 'dwight@agency.com');
+
+-- Заполнение таблицы Hotel
+INSERT INTO Hotel VALUES (1, 'Grand Paris Hotel', 5, 150.00),
+                        (2, 'Rome Luxury Stay', 4, 100.00),
+                        (3, 'Barcelona Inn', 3, 80.00);
+
+-- Заполнение таблицы Book
+INSERT INTO Book VALUES (1, 'agent001', 1, '2025-03-10', 1, 750.00),
+                        (2, 'agent002', 2, '2025-03-12', 2, 800.00);
