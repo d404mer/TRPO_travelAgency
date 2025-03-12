@@ -17,13 +17,32 @@ namespace TravelAgency.AddViews
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            // Проверка на пустые поля для имени и фамилии
+            if (string.IsNullOrWhiteSpace(GuideNameTextBox.Text))
+            {
+                MessageBox.Show("Пожалуйста, введите имя гида.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(GuideLastNameTextBox.Text))
+            {
+                MessageBox.Show("Пожалуйста, введите фамилию гида.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Убираем лишние пробелы по бокам
+            string guideName = GuideNameTextBox.Text.Trim();
+            string guideLastName = GuideLastNameTextBox.Text.Trim();
+
+            // Создание нового объекта гида
             var newGuide = new Guide
             {
-                Guid_Name = GuideNameTextBox.Text,
-                Guid_Lastname = GuideLastNameTextBox.Text
+                Guid_Name = guideName,
+                Guid_Lastname = guideLastName
             };
 
-            bool success = _guideRepository.AddGuide(newGuide);  // Вызываем метод через экземпляр репозитория
+            // Вызываем метод репозитория для добавления гида
+            bool success = _guideRepository.AddGuide(newGuide);
             if (success)
             {
                 MessageBox.Show("Гид добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);

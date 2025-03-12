@@ -17,12 +17,24 @@ namespace TravelAgency.AddViews
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            // Проверка, что название страны не пустое
+            if (string.IsNullOrWhiteSpace(CountryNameTextBox.Text))
+            {
+                MessageBox.Show("Пожалуйста, введите название страны.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Убираем лишние пробелы по бокам
+            string countryName = CountryNameTextBox.Text.Trim();
+
+            // Создание нового объекта страны
             var newCountry = new Country
             {
-                Country_Name = CountryNameTextBox.Text
+                Country_Name = countryName
             };
 
-            bool success = _countryRepository.AddCountry(newCountry);  // Вызываем метод через экземпляр репозитория
+            // Вызываем метод репозитория для добавления страны
+            bool success = _countryRepository.AddCountry(newCountry);
             if (success)
             {
                 MessageBox.Show("Страна добавлена!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);

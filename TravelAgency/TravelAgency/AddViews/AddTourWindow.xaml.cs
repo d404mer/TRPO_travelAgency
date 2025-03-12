@@ -17,19 +17,48 @@ namespace TravelAgency.AddViews
 
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
+            // Проверка на пустые поля
+            if (string.IsNullOrWhiteSpace(TourNameTextBox.Text))
+            {
+                MessageBox.Show("Пожалуйста, введите название тура.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Проверка на корректность ввода ID страны
+            if (!int.TryParse(CountryIDTextBox.Text, out int countryId) || countryId <= 0)
+            {
+                MessageBox.Show("Пожалуйста, введите корректный ID страны.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Проверка на корректность ввода времени пребывания
+            if (!int.TryParse(StayTimeTextBox.Text, out int stayTime) || stayTime <= 0)
+            {
+                MessageBox.Show("Пожалуйста, введите корректное количество дней для пребывания.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Проверка на корректность ввода цены
+            if (!decimal.TryParse(PriceTextBox.Text, out decimal price) || price <= 0)
+            {
+                MessageBox.Show("Пожалуйста, введите корректную цену.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
             // Генерация уникального ID для тура
             int newTourId = GenerateUniqueTourId();
 
-            // Получаем введенные данные
+            // Создание нового объекта тура
             Tour newTour = new Tour
             {
                 Tour_ID = newTourId,  // Присваиваем сгенерированный ID
-                Tour_Name = TourNameTextBox.Text,
-                Country_ID = int.Parse(CountryIDTextBox.Text),
-                Stay_Time = int.Parse(StayTimeTextBox.Text),
-                Price = decimal.Parse(PriceTextBox.Text)
+                Tour_Name = TourNameTextBox.Text.Trim(),
+                Country_ID = countryId,
+                Stay_Time = stayTime,
+                Price = price
             };
 
+            // Добавляем тур в репозиторий
             bool success = _tourRepository.AddTour(newTour);
             if (success)
             {
@@ -43,10 +72,9 @@ namespace TravelAgency.AddViews
             }
         }
 
+        // Метод для генерации уникального ID тура
         private int GenerateUniqueTourId()
         {
-            // Простой способ сгенерировать уникальный ID для нового тура
-            // Можно использовать текущее время, или, например, увеличить ID на 1 от последнего ID
             Random random = new Random();
             return random.Next(1000, 9999);  // Генерация ID от 1000 до 9999
         }
