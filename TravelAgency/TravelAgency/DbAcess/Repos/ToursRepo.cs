@@ -107,10 +107,14 @@ namespace TravelAgency.DbAcess.Repos
         {
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
-                string query = @"INSERT INTO Tours (Tour_Name, Country_ID, Stay_Time, Price) 
-                                 VALUES (@Tour_Name, @Country_ID, @Stay_Time, @Price)";
+                // Получаем максимальный Tour_ID для генерации нового ID
+                int newTourId = GetNextTourId();
+
+                string query = @"INSERT INTO Tours (Tour_ID, Tour_Name, Country_ID, Stay_Time, Price) 
+                         VALUES (@Tour_ID, @Tour_Name, @Country_ID, @Stay_Time, @Price)";
 
                 SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Tour_ID", newTourId);
                 command.Parameters.AddWithValue("@Tour_Name", tour.Tour_Name);
                 command.Parameters.AddWithValue("@Country_ID", tour.Country_ID.HasValue ? (object)tour.Country_ID.Value : DBNull.Value);
                 command.Parameters.AddWithValue("@Stay_Time", tour.Stay_Time);
@@ -129,6 +133,31 @@ namespace TravelAgency.DbAcess.Repos
                 }
             }
         }
+
+        // Метод для получения следующего Tour_ID
+        private int GetNextTourId()
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = "SELECT ISNULL(MAX(Tour_ID), 0) + 1 FROM Tours"; // Получаем максимальный ID и увеличиваем на 1
+                SqlCommand command = new SqlCommand(query, connection);
+
+                try
+                {
+                    connection.Open();
+                    object result = command.ExecuteScalar();
+                    return Convert.ToInt32(result);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при получении следующего Tour_ID: {ex.Message}");
+                    return 1; // Если произошла ошибка, начинаем с 1
+                }
+            }
+        }
+
+
+
 
         /// <summary>
         /// Обновляет информацию о туре.

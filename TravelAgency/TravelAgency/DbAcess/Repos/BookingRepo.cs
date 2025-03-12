@@ -96,29 +96,61 @@ namespace TravelAgency.DbAcess.Repos
         {
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
-                string query = @"INSERT INTO Book (Agent_ID, Tour_ID, Date_Of_Book, Hotel_ID, Price) 
-                                 VALUES (@AgentID, @TourID, @DateOfBook, @HotelID, @Price)";
+                // Получаем максимальный Book_ID для генерации нового ID
+                int newBookId = GetNextBookId();
+
+                // Запрос на добавление нового бронирования
+                string query = @"
+        INSERT INTO Book (Book_ID, Agent_ID, Tour_ID, Date_Of_Book, Hotel_ID, Price)
+        VALUES (@Book_ID, @AgentID, @TourID, @DateOfBook, @HotelID, @Price);";
 
                 SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Book_ID", newBookId);
                 command.Parameters.AddWithValue("@AgentID", booking.Agent_ID);
                 command.Parameters.AddWithValue("@TourID", booking.Tour_ID);
                 command.Parameters.AddWithValue("@DateOfBook", booking.Date_Of_Book);
-                command.Parameters.AddWithValue("@HotelID", booking.Hotel_ID);
+                command.Parameters.AddWithValue("@HotelID", booking.Hotel_ID.HasValue ? (object)booking.Hotel_ID.Value : DBNull.Value);
                 command.Parameters.AddWithValue("@Price", booking.Price);
 
                 try
                 {
                     connection.Open();
                     int rowsAffected = command.ExecuteNonQuery();
-                    return rowsAffected > 0;
+                    return rowsAffected > 0; // Возвращаем true, если бронирование было добавлено
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Ошибка при добавлении бронирования: {ex.Message}");
-                    return false;
+                    return false; // Возвращаем false в случае ошибки
                 }
             }
         }
+
+        // Метод для получения следующего Book_ID
+        private static int GetNextBookId()
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = "SELECT ISNULL(MAX(Book_ID), 0) + 1 FROM Book"; // Получаем максимальный ID и увеличиваем на 1
+                SqlCommand command = new SqlCommand(query, connection);
+
+                try
+                {
+                    connection.Open();
+                    object result = command.ExecuteScalar();
+                    return Convert.ToInt32(result);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при получении следующего Book_ID: {ex.Message}");
+                    return 1; // Если произошла ошибка, начинаем с 1
+                }
+            }
+        }
+
+
+
+
 
         /// <summary>
         /// Удаляет бронирование по идентификатору

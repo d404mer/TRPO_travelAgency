@@ -1,27 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using TravelAgency.DbAcess;
+using TravelAgency.DbAcess.Repos;
 
 namespace TravelAgency.AddViews
 {
-    /// <summary>
-    /// Логика взаимодействия для AddCountryWindow.xaml
-    /// </summary>
     public partial class AddCountryWindow : Window
     {
+        private CountryRepository _countryRepository;
+
         public AddCountryWindow()
         {
             InitializeComponent();
+            _countryRepository = new CountryRepository();  // Создаем экземпляр репозитория
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            var newCountry = new Country
+            {
+                Country_Name = CountryNameTextBox.Text
+            };
+
+            bool success = _countryRepository.AddCountry(newCountry);  // Вызываем метод через экземпляр репозитория
+            if (success)
+            {
+                MessageBox.Show("Страна добавлена!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                this.DialogResult = true;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Ошибка при добавлении страны.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

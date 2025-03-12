@@ -1,27 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using TravelAgency.DbAcess;
+using TravelAgency.DbAcess.Repos;
 
 namespace TravelAgency.AddViews
 {
-    /// <summary>
-    /// Логика взаимодействия для AddGuideWindow.xaml
-    /// </summary>
     public partial class AddGuideWindow : Window
     {
+        private GuideRepository _guideRepository;
+
         public AddGuideWindow()
         {
             InitializeComponent();
+            _guideRepository = new GuideRepository();  // Создаем экземпляр репозитория
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            var newGuide = new Guide
+            {
+                Guid_Name = GuideNameTextBox.Text,
+                Guid_Lastname = GuideLastNameTextBox.Text
+            };
+
+            bool success = _guideRepository.AddGuide(newGuide);  // Вызываем метод через экземпляр репозитория
+            if (success)
+            {
+                MessageBox.Show("Гид добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                this.DialogResult = true;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Ошибка при добавлении гида.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

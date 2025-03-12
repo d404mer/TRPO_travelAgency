@@ -1,27 +1,39 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using TravelAgency.DbAcess;
+using TravelAgency.DbAcess.Repos;
 
 namespace TravelAgency.AddViews
 {
-    /// <summary>
-    /// Логика взаимодействия для AddBookWindow.xaml
-    /// </summary>
-    public partial class AddBookWindow : Window
+    public partial class AddBookingWindow : Window
     {
-        public AddBookWindow()
+        public AddBookingWindow()
         {
             InitializeComponent();
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            var newBooking = new Booking
+            {
+                Agent_ID = AgentIDTextBox.Text,
+                Tour_ID = int.TryParse(TourIDTextBox.Text, out var tourId) ? tourId : 0,
+                Date_Of_Book = BookingDatePicker.SelectedDate ?? DateTime.Now,
+                Hotel_ID = int.TryParse(HotelIDTextBox.Text, out var hotelId) ? hotelId : (int?)null,
+                Price = decimal.TryParse(PriceTextBox.Text, out var price) ? price : 0
+            };
+
+            bool success = BookingRepo.AddBooking(newBooking);
+            if (success)
+            {
+                MessageBox.Show("Бронирование добавлено!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+                this.DialogResult = true;
+                this.Close();
+            }
+            else
+            {
+                MessageBox.Show("Ошибка при добавлении бронирования.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

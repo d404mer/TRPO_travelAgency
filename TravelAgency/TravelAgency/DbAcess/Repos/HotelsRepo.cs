@@ -99,9 +99,13 @@ namespace TravelAgency.DbAcess.Repos
         {
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
-                string query = @"INSERT INTO Hotels (Hotel_Name, Stars, Price_Per_Night) 
-                                 VALUES (@Hotel_Name, @Stars, @Price_Per_Night)";
+                // Получаем максимальный Hotel_ID для генерации нового ID
+                int newHotelId = GetNextHotelId();
+
+                string query = @"INSERT INTO Hotels (Hotel_ID, Hotel_Name, Stars, Price_Per_Night) 
+                         VALUES (@Hotel_ID, @Hotel_Name, @Stars, @Price_Per_Night)";
                 SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Hotel_ID", newHotelId);
                 command.Parameters.AddWithValue("@Hotel_Name", hotel.Hotel_Name);
                 command.Parameters.AddWithValue("@Stars", hotel.Stars);
                 command.Parameters.AddWithValue("@Price_Per_Night", hotel.Price_Per_Night);
@@ -110,15 +114,38 @@ namespace TravelAgency.DbAcess.Repos
                 {
                     connection.Open();
                     int rowsAffected = command.ExecuteNonQuery();
-                    return rowsAffected > 0;
+                    return rowsAffected > 0; // Возвращаем true, если отель был добавлен
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Ошибка при добавлении отеля: {ex.Message}");
-                    return false;
+                    return false; // Возвращаем false в случае ошибки
                 }
             }
         }
+
+        // Метод для получения следующего Hotel_ID
+        private int GetNextHotelId()
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = "SELECT ISNULL(MAX(Hotel_ID), 0) + 1 FROM Hotels"; // Получаем максимальный ID и увеличиваем на 1
+                SqlCommand command = new SqlCommand(query, connection);
+
+                try
+                {
+                    connection.Open();
+                    object result = command.ExecuteScalar();
+                    return Convert.ToInt32(result);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при получении следующего Hotel_ID: {ex.Message}");
+                    return 1; // Если произошла ошибка, начинаем с 1
+                }
+            }
+        }
+
 
         /// <summary>
         /// Обновляет информацию об отеле в базе данных.

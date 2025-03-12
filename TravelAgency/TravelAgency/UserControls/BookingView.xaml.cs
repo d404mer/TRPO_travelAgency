@@ -117,7 +117,7 @@ namespace TravelAgency.UserControls
         // Метод для добавления нового бронирования
         private void AddBookingButton_Click(object sender, RoutedEventArgs e)
         {
-            AddBookWindow addBookingWindow = new AddBookWindow();
+            AddBookingWindow addBookingWindow = new AddBookingWindow();
             if (addBookingWindow.ShowDialog() == true)
             {
                 LoadBookings(); // Обновляем список бронирований после добавления

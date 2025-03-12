@@ -98,24 +98,51 @@ namespace TravelAgency.DbAcess.Repos
         {
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
-                string query = @"INSERT INTO Countries (Country_Name) 
-                                 VALUES (@Country_Name)";
+                // Получаем максимальный Country_ID для генерации нового ID
+                int newCountryId = GetNextCountryId();
+
+                string query = @"INSERT INTO Countries (Country_ID, Country_Name) 
+                         VALUES (@Country_ID, @Country_Name)";
                 SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@Country_ID", newCountryId);
                 command.Parameters.AddWithValue("@Country_Name", country.Country_Name);
 
                 try
                 {
                     connection.Open();
                     int rowsAffected = command.ExecuteNonQuery();
-                    return rowsAffected > 0;
+                    return rowsAffected > 0; // Возвращаем true, если страна была добавлена
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Ошибка при добавлении страны: {ex.Message}");
-                    return false;
+                    return false; // Возвращаем false в случае ошибки
                 }
             }
         }
+
+        // Метод для получения следующего Country_ID
+        private int GetNextCountryId()
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                string query = "SELECT ISNULL(MAX(Country_ID), 0) + 1 FROM Countries"; // Получаем максимальный ID и увеличиваем на 1
+                SqlCommand command = new SqlCommand(query, connection);
+
+                try
+                {
+                    connection.Open();
+                    object result = command.ExecuteScalar();
+                    return Convert.ToInt32(result);
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Ошибка при получении следующего Country_ID: {ex.Message}");
+                    return 1; // Если произошла ошибка, начинаем с 1
+                }
+            }
+        }
+
 
         /// <summary>
         /// Обновляет информацию о стране в базе данных.
