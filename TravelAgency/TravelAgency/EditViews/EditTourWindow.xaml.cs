@@ -1,27 +1,42 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using TravelAgency.DbAcess;
+using TravelAgency.DbAcess.Repos;
 
 namespace TravelAgency.EditViews
 {
-    /// <summary>
-    /// Логика взаимодействия для EditTourWindow.xaml
-    /// </summary>
-    public partial class EditTourWindow : Window
+    public partial class TourEditWindow : Window
     {
-        public EditTourWindow()
+        private Tour _tour;
+        private TourRepository _tourRepository;
+
+        public TourEditWindow(Tour tour)
         {
             InitializeComponent();
+            _tour = tour;
+            _tourRepository = new TourRepository();
+            LoadTourData();
+        }
+
+        private void LoadTourData()
+        {
+            TourNameTextBox.Text = _tour.Tour_Name;
+            CountryIdTextBox.Text = _tour.Country_ID.ToString();
+            StayTimeTextBox.Text = _tour.Stay_Time.ToString();
+            PriceTextBox.Text = _tour.Price.ToString();
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            _tour.Tour_Name = TourNameTextBox.Text;
+            _tour.Country_ID = int.Parse(CountryIdTextBox.Text);
+            _tour.Stay_Time = int.Parse(StayTimeTextBox.Text);
+            _tour.Price = decimal.Parse(PriceTextBox.Text);
+
+            _tourRepository.UpdateTour(_tour);  // Вызов метода через экземпляр репозитория
+
+            MessageBox.Show("Данные тура обновлены!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            this.Close();
         }
     }
 }

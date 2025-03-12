@@ -17,8 +17,6 @@
                   AutoGenerateColumns="False" IsReadOnly="True"
                   SelectionMode="Single" 
                   RowHeaderWidth="0"
-                  SelectionChanged="TourGuidesDataGrid_SelectionChanged"
-                  MouseDoubleClick="TourGuidesDataGrid_MouseDoubleClick"
                   Grid.Row="0">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ID Тура" Binding="{Binding Tour_ID}" Width="Auto"/>
@@ -26,10 +24,6 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <!-- Панель с кнопками для добавления/удаления связи туров и гидов -->
-        <StackPanel Orientation="Horizontal" Margin="10,7,10,0" VerticalAlignment="Top" Grid.Row="1">
-            <Button Content="Добавить связь" Click="AddTourGuideButton_Click" Margin="5"/>
-            <Button Content="Удалить связь" Click="DeleteTourGuideButton_Click" Margin="5"/>
-        </StackPanel>
+       
     </Grid>
 </UserControl>

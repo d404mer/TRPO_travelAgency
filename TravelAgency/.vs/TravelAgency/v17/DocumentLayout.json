@@ -3,120 +3,108 @@
   "WorkspaceRootPath": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\tourguidesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\tourguidesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\tourguidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\tourguidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\repos\\tourguidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\tourguidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\editviews\\editbookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editbookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\editviews\\editbookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editbookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\hotelsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\hotelsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\toursview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\toursview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\edittourwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\edittourwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\edittourwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\edittourwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\toursview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\toursview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\reportsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\reportsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\dbacess\\repos\\guidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\guidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\dbacess\\repos\\toursrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\toursrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\editbookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editbookwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\toursview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\toursview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\dbacess\\repos\\tourguidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\tourguidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\tourguidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\tourguidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\tourguidesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\tourguidesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\dbacess\\repos\\reportsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\reportsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\hotelsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\hotelsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\reportsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\hotelsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\hotelsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\dbacess\\repos\\hotelsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\hotelsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\guidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\guidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\addviews\\addguidewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\addviews\\addguidewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\addviews\\addguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\addviews\\addguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\addviews\\addguidetour.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\addviews\\addguidetour.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\editguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\guidesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\guidesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\countriesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\edithotelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\edithotelwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\guidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\guidesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\editviews\\editguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\editguidewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editguidewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\bookingview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\bookingview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\bookingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\bookingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\countriesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\countriesview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\editcountrywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editcountrywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\editbookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editbookwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\countriesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\countriesview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\dbacess\\repos\\countriesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\countriesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\agentsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\agentsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\bookingview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\bookingview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\editcountrywindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editcountrywindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\bookingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\bookingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\editviews\\edithotelwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\edithotelwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\editviews\\editcountrywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editcountrywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\editviews\\editagentwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -127,12 +115,48 @@
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\editviews\\editagentwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\agentsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\agentsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\reportsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\reportsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\usercontrols\\agentsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\agentsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\repos\\guidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\guidesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\repos\\toursrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\toursrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\repos\\reportsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\reportsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\repos\\hotelsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\hotelsrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\addviews\\addguidewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\addviews\\addguidewindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\addviews\\addguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\addviews\\addguidewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\addviews\\addguidetour.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\addviews\\addguidetour.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\dbacess\\repos\\countriesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\dbacess\\repos\\countriesrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\usercontrols\\agentsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\usercontrols\\agentsview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -150,7 +174,7 @@
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|d:\\cit kai\\trpo_travelagency\\travelagency\\travelagency\\addviews\\addagentwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "AbsoluteMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\travelagency\\addviews\\addagentwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{61D5FCD8-9C70-45CB-911B-7D2B45DE0CE0}|TravelAgency\\TravelAgency.csproj|solutionrelative:travelagency\\addviews\\addagentwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
@@ -169,165 +193,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 328,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\MainWindow.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\MainWindow.xaml.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAIAzwDQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T12:59:19.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ToursRepo.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
-              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:49:01.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GuidesRepo.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
-              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:48:03.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ToursView.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ToursView.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\UserControls\\ToursView.xaml.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAtwGsAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:16:26.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ReportsRepo.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
-              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAAAowAABAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:48:32.561Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TourGuidesRepo.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
-              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:48:46.706Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ToursView.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ToursView.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml",
-              "RelativeToolTip": "TravelAgency\\UserControls\\ToursView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T14:13:01.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Models.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Models.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Models.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Models.cs",
-              "RelativeToolTip": "TravelAgency\\DbAcess\\Models.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:15:10.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReportsView.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ReportsView.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml",
-              "RelativeToolTip": "TravelAgency\\UserControls\\ReportsView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T13:10:47.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReportsView.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ReportsView.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\UserControls\\ReportsView.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:20:18.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "HotelsRepo.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
-              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:48:14.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EditBookWindow.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAawCUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:04:48.366Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "EditBookWindow.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditBookWindow.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditBookWindow.xaml",
@@ -339,46 +209,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 10,
+              "Title": "ReportsView.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ReportsView.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml",
+              "RelativeToolTip": "TravelAgency\\UserControls\\ReportsView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T13:10:47.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditBookWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditBookWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:04:48.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "HotelsView.xaml.cs",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\HotelsView.xaml.cs",
               "RelativeDocumentMoniker": "TravelAgency\\UserControls\\HotelsView.xaml.cs",
               "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\HotelsView.xaml.cs",
               "RelativeToolTip": "TravelAgency\\UserControls\\HotelsView.xaml.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAtwGwAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAtwGgAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T13:09:54.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "TourGuidesView.xaml.cs",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\TourGuidesView.xaml.cs",
               "RelativeDocumentMoniker": "TravelAgency\\UserControls\\TourGuidesView.xaml.cs",
               "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\TourGuidesView.xaml.cs",
               "RelativeToolTip": "TravelAgency\\UserControls\\TourGuidesView.xaml.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAlwJUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDAAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T13:13:53.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CountriesRepo.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
-              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:47:47.025Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 0,
               "Title": "TourGuidesView.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\TourGuidesView.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\UserControls\\TourGuidesView.xaml",
@@ -390,32 +272,70 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "BookingView.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\BookingView.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml",
-              "RelativeToolTip": "TravelAgency\\UserControls\\BookingView.xaml",
+              "DocumentIndex": 8,
+              "Title": "EditTourWindow.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditTourWindow.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditTourWindow.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditTourWindow.xaml",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditTourWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T14:12:52.539Z",
+              "WhenOpened": "2025-03-12T13:27:30.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "GuidesView.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\GuidesView.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\UserControls\\GuidesView.xaml.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAtwHYAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TourGuidesRepo.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
+              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\TourGuidesRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:06:23.251Z",
+              "WhenOpened": "2025-03-12T12:48:46.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 7,
+              "Title": "EditTourWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditTourWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditTourWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditTourWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditTourWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:27:39.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ToursView.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ToursView.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\UserControls\\ToursView.xaml.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAtwGoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:16:26.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ToursView.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ToursView.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ToursView.xaml",
+              "RelativeToolTip": "TravelAgency\\UserControls\\ToursView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-11T14:13:01.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "HotelsView.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\HotelsView.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\UserControls\\HotelsView.xaml",
@@ -427,7 +347,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 12,
+              "Title": "GuidesView.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\GuidesView.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml",
+              "RelativeToolTip": "TravelAgency\\UserControls\\GuidesView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-11T14:13:18.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EditHotelWindow.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditHotelWindow.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditHotelWindow.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditHotelWindow.xaml",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditHotelWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T13:27:59.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GuidesView.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\GuidesView.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\UserControls\\GuidesView.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAYwGgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:06:23.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "EditGuideWindow.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditGuideWindow.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditGuideWindow.xaml",
@@ -440,67 +397,143 @@
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "AddGuideTour.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideTour.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddGuideTour.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideTour.xaml",
-              "RelativeToolTip": "TravelAgency\\AddViews\\AddGuideTour.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T13:07:23.67Z",
+              "Title": "CountriesView.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\CountriesView.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\CountriesView.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\CountriesView.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\UserControls\\CountriesView.xaml.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAlwGcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:03:36.219Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AddGuideWindow.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddGuideWindow.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml",
-              "RelativeToolTip": "TravelAgency\\AddViews\\AddGuideWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T13:07:35.641Z",
+              "DocumentIndex": 29,
+              "Title": "GuidesRepo.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
+              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\GuidesRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:48:03.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "HotelsRepo.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
+              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\HotelsRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:48:14.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CountriesRepo.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
+              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\CountriesRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:47:47.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EditGuideWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditGuideWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditGuideWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditGuideWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditGuideWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:30:40.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "AddGuideWindow.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Title": "BookingView.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\BookingView.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\UserControls\\BookingView.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAYwF8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:07:50.967Z",
+              "WhenOpened": "2025-03-12T12:53:36.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Models.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Models.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Models.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Models.cs",
+              "RelativeToolTip": "TravelAgency\\DbAcess\\Models.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwBoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T14:15:10.577Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "EditCountryWindow.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditCountryWindow.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditCountryWindow.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditCountryWindow.xaml",
-              "RelativeToolTip": "TravelAgency\\EditViews\\EditCountryWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-12T12:03:42.175Z",
+              "Title": "EditHotelWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditHotelWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditHotelWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditHotelWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditHotelWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:28:02.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "GuidesView.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\GuidesView.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\GuidesView.xaml",
-              "RelativeToolTip": "TravelAgency\\UserControls\\GuidesView.xaml",
+              "DocumentIndex": 31,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\MainWindow.xaml.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAzwDQAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T12:59:19.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ToursRepo.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
+              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\ToursRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:49:01.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BookingView.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\BookingView.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml",
+              "RelativeToolTip": "TravelAgency\\UserControls\\BookingView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T14:13:18.894Z",
+              "WhenOpened": "2025-03-11T14:12:52.539Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 20,
               "Title": "CountriesView.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\CountriesView.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\UserControls\\CountriesView.xaml",
@@ -512,58 +545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "CountriesView.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\CountriesView.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\CountriesView.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\CountriesView.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\UserControls\\CountriesView.xaml.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAtwGcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T13:03:36.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "BookingView.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\BookingView.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\BookingView.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\UserControls\\BookingView.xaml.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAowIEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T12:53:36.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "EditAgentWindow.xaml",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml",
-              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditAgentWindow.xaml",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml",
-              "RelativeToolTip": "TravelAgency\\EditViews\\EditAgentWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T14:33:03.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "EditAgentWindow.xaml.cs",
-              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
-              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
-              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
-              "RelativeToolTip": "TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAowDwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:33:50.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 21,
               "Title": "AgentsView.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\AgentsView.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\UserControls\\AgentsView.xaml",
@@ -575,7 +557,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 22,
+              "Title": "EditCountryWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditCountryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditCountryWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditCountryWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditCountryWindow.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAawCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:28:16.171Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AddGuideTour.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideTour.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddGuideTour.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideTour.xaml",
+              "RelativeToolTip": "TravelAgency\\AddViews\\AddGuideTour.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T13:07:23.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AddGuideWindow.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddGuideWindow.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml",
+              "RelativeToolTip": "TravelAgency\\AddViews\\AddGuideWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T13:07:35.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddGuideWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\AddViews\\AddGuideWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:07:50.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "EditCountryWindow.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditCountryWindow.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditCountryWindow.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditCountryWindow.xaml",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditCountryWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-12T12:03:42.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EditAgentWindow.xaml",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditAgentWindow.xaml",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditAgentWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-11T14:33:03.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EditAgentWindow.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\EditViews\\EditAgentWindow.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T14:33:50.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ReportsView.xaml.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\UserControls\\ReportsView.xaml.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\ReportsView.xaml.cs",
+              "RelativeToolTip": "TravelAgency\\UserControls\\ReportsView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T13:20:18.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ReportsRepo.cs",
+              "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
+              "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
+              "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
+              "RelativeToolTip": "TravelAgency\\DbAcess\\Repos\\ReportsRepo.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAowAABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T12:48:32.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "AgentsView.xaml.cs",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\UserControls\\AgentsView.xaml.cs",
               "RelativeDocumentMoniker": "TravelAgency\\UserControls\\AgentsView.xaml.cs",
@@ -583,12 +673,11 @@
               "RelativeToolTip": "TravelAgency\\UserControls\\AgentsView.xaml.cs",
               "ViewState": "AgIAAMoAAAAAAAAAAAAwwO8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:19:20.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T14:19:20.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 41,
               "Title": "Style.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\Style.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\Style.xaml",
@@ -600,19 +689,18 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 39,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\MainWindow.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\MainWindow.xaml",
               "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\MainWindow.xaml",
               "RelativeToolTip": "TravelAgency\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T12:59:19.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T12:59:19.616Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 43,
               "Title": "AddAgentWindow.xaml.cs",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddAgentWindow.xaml.cs",
               "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddAgentWindow.xaml.cs",
@@ -620,12 +708,11 @@
               "RelativeToolTip": "TravelAgency\\AddViews\\AddAgentWindow.xaml.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAA1wDMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T14:49:25.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T14:49:25.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 42,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\App.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\App.xaml",
@@ -637,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 40,
               "Title": "Window.cs",
               "DocumentMoniker": "C:\\Users\\ASD\\AppData\\Local\\Temp\\.vsdbgsrc\\31665843623b4f82522a9b2b77f95e2cea82004619857b07a413f279b682ec71\\Window.cs",
               "ToolTip": "C:\\Users\\ASD\\AppData\\Local\\Temp\\.vsdbgsrc\\31665843623b4f82522a9b2b77f95e2cea82004619857b07a413f279b682ec71\\Window.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
@@ -648,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 45,
               "Title": "DatabaseConnection.cs",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\DbAcess\\DatabaseConnection.cs",
               "RelativeDocumentMoniker": "TravelAgency\\DbAcess\\DatabaseConnection.cs",
@@ -660,15 +747,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 44,
               "Title": "AddAgentWindow.xaml",
               "DocumentMoniker": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddAgentWindow.xaml",
               "RelativeDocumentMoniker": "TravelAgency\\AddViews\\AddAgentWindow.xaml",
               "ToolTip": "D:\\CIT KAI\\TRPO_travelAgency\\TravelAgency\\TravelAgency\\AddViews\\AddAgentWindow.xaml",
               "RelativeToolTip": "TravelAgency\\AddViews\\AddAgentWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-03-11T14:49:17.423Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T14:49:17.423Z"
             }
           ]
         }

@@ -102,8 +102,8 @@ namespace TravelAgency.UserControls
                 if (selectedGuide != null)
                 {
                     // Например, здесь можно реализовать логику для редактирования гида
-                    //EditGuideWindow editWindow = new EditGuideWindow(selectedGuide);
-                    //editWindow.ShowDialog();
+                    GuideEditWindow editWindow = new GuideEditWindow(selectedGuide);
+                    editWindow.ShowDialog();
 
                     // После закрытия обновляем список гидов
                     LoadGuides();

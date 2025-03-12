@@ -1,27 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using TravelAgency.DbAcess;
+using TravelAgency.DbAcess.Repos;
 
 namespace TravelAgency.EditViews
 {
-    /// <summary>
-    /// Логика взаимодействия для EditHotelWindow.xaml
-    /// </summary>
-    public partial class EditHotelWindow : Window
+    public partial class HotelEditWindow : Window
     {
-        public EditHotelWindow()
+        private Hotel _hotel;
+        private HotelRepository _hotelRepository;
+
+        public HotelEditWindow(Hotel hotel)
         {
             InitializeComponent();
+            _hotel = hotel;
+            _hotelRepository = new HotelRepository();
+            LoadHotelData();
+        }
+
+        private void LoadHotelData()
+        {
+            HotelNameTextBox.Text = _hotel.Hotel_Name;
+            StarsTextBox.Text = _hotel.Stars.ToString();
+            PricePerNightTextBox.Text = _hotel.Price_Per_Night.ToString();
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            _hotel.Hotel_Name = HotelNameTextBox.Text;
+            _hotel.Stars = int.Parse(StarsTextBox.Text);
+            _hotel.Price_Per_Night = decimal.Parse(PricePerNightTextBox.Text);
+
+            _hotelRepository.UpdateHotel(_hotel);  // Вызов метода через экземпляр репозитория
+
+            MessageBox.Show("Данные отеля обновлены!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            this.Close();
         }
     }
 }

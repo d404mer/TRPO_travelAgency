@@ -102,11 +102,9 @@ namespace TravelAgency.UserControls
                 var selectedHotel = _allHotels.FirstOrDefault(h => h.Hotel_ID == hotelId);
                 if (selectedHotel != null)
                 {
-                    // Например, здесь можно реализовать логику для редактирования отеля
-                    //EditHotelWindow editWindow = new EditHotelWindow(selectedHotel);
-                    //editWindow.ShowDialog();
+                    HotelEditWindow editWindow = new HotelEditWindow(selectedHotel);
+                    editWindow.ShowDialog();
 
-                    // После закрытия обновляем список отелей
                     LoadHotels();
                 }
             }

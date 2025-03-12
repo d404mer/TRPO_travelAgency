@@ -104,8 +104,8 @@ namespace TravelAgency.UserControls
                 if (selectedTour != null)
                 {
                     // Например, здесь можно реализовать логику для редактирования тура
-                    //EditTourWindow editWindow = new EditTourWindow(selectedTour);
-                    //editWindow.ShowDialog();
+                    TourEditWindow editWindow = new TourEditWindow(selectedTour);
+                    editWindow.ShowDialog();
 
                     // После закрытия обновляем список туров
                     LoadTours();

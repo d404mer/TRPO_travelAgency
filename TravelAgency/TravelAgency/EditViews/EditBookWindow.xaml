@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TravelAgency.EditViews"
         mc:Ignorable="d"
-        Title="EditBookWindow" Height="450" Width="800">
+        Title="Редактирование Бронирования" Height="450" Width="800"
+        Background="{StaticResource PrimaryBrush}">
+
     <Grid>
-        
+        <StackPanel Margin="20">
+            <TextBlock Foreground="White" FontWeight="Bold" Text="ID Бронирования:" />
+            <TextBox x:Name="BookIDTextBox" IsReadOnly="True" />
+
+            <TextBlock Foreground="White" FontWeight="Bold" Text="ID Агента:" />
+            <TextBox x:Name="AgentIDTextBox" />
+
+            <TextBlock Foreground="White" FontWeight="Bold" Text="ID Тура:" />
+            <TextBox x:Name="TourIDTextBox" />
+
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Дата бронирования:" />
+            <DatePicker x:Name="BookingDatePicker" />
+
+            <TextBlock Foreground="White" FontWeight="Bold" Text="ID Отеля:" />
+            <TextBox x:Name="HotelIDTextBox" />
+
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Цена:" />
+            <TextBox x:Name="PriceTextBox" />
+
+            <Button Margin="0,10,0,0" Content="Сохранить" Click="SaveButton_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

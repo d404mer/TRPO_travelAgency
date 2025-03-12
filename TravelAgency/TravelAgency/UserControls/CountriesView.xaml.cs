@@ -100,8 +100,8 @@ namespace TravelAgency.UserControls
                 var selectedCountry = _allCountries.FirstOrDefault(c => c.Country_ID == countryId);
                 if (selectedCountry != null)
                 {
-                    // EditCountryWindow editWindow = new EditCountryWindow(selectedCountry);
-                    // editWindow.ShowDialog();
+                    EditCountryWindow editWindow = new EditCountryWindow(selectedCountry);
+                    editWindow.ShowDialog();
 
                     // После закрытия обновляем список стран
                     LoadCountries();

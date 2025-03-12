@@ -1,27 +1,38 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+using TravelAgency.DbAcess;
+using TravelAgency.DbAcess.Repos;
 
 namespace TravelAgency.EditViews
 {
-    /// <summary>
-    /// Логика взаимодействия для EditGuideWindow.xaml
-    /// </summary>
-    public partial class EditGuideWindow : Window
+    public partial class GuideEditWindow : Window
     {
-        public EditGuideWindow()
+        private Guide _guide;
+        private GuideRepository _guideRepository;
+
+        public GuideEditWindow(Guide guide)
         {
             InitializeComponent();
+            _guide = guide;
+            _guideRepository = new GuideRepository();
+            LoadGuideData();
+        }
+
+        private void LoadGuideData()
+        {
+            GuideNameTextBox.Text = _guide.Guid_Name;
+            GuideLastNameTextBox.Text = _guide.Guid_Lastname;
+        }
+
+        private void SaveButton_Click(object sender, RoutedEventArgs e)
+        {
+            _guide.Guid_Name = GuideNameTextBox.Text;
+            _guide.Guid_Lastname = GuideLastNameTextBox.Text;
+
+            _guideRepository.UpdateGuide(_guide);  // Вызов метода через экземпляр репозитория
+
+            MessageBox.Show("Данные гида обновлены!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
+            this.Close();
         }
     }
 }
