@@ -1,16 +1,16 @@
 ﻿<Window x:Class="TravelAgency.AddViews.AddHotelWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="AddHotelWindow" Height="350" Width="500">
+        Title="AddHotelWindow" Height="350" Width="500" Background="{StaticResource PrimaryBrush}" >
     <Grid>
         <StackPanel Margin="20">
-            <TextBlock Text="Название отеля:" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Название отеля:" />
             <TextBox x:Name="HotelNameTextBox"/>
 
-            <TextBlock Text="Звезды:" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Звезды:" />
             <TextBox x:Name="StarsTextBox"/>
 
-            <TextBlock Text="Цена за ночь:" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Цена за ночь:" />
             <TextBox x:Name="PricePerNightTextBox"/>
 
             <Button Content="Сохранить" Click="SaveButton_Click" Margin="0,10,0,0"/>

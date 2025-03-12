@@ -1,10 +1,10 @@
 ﻿<Window x:Class="TravelAgency.AddViews.AddCountryWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="AddCountryWindow" Height="250" Width="400">
+        Title="AddCountryWindow" Height="250" Width="400" Background="{StaticResource PrimaryBrush}" >
     <Grid>
         <StackPanel Margin="20">
-            <TextBlock Text="Название страны:" />
+            <TextBlock  Foreground="White" FontWeight="Bold" Text="Название страны:" />
             <TextBox x:Name="CountryNameTextBox"/>
 
             <Button Content="Сохранить" Click="SaveButton_Click" Margin="0,10,0,0"/>

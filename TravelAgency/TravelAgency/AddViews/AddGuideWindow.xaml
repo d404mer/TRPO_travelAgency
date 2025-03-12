@@ -1,13 +1,13 @@
 ﻿<Window x:Class="TravelAgency.AddViews.AddGuideWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="AddGuideWindow" Height="350" Width="500">
+        Title="AddGuideWindow" Height="350" Width="500" Background="{StaticResource PrimaryBrush}" >
     <Grid>
         <StackPanel Margin="20">
-            <TextBlock Text="Имя гида:" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Имя гида:" />
             <TextBox x:Name="GuideNameTextBox"/>
 
-            <TextBlock Text="Фамилия гида:" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Фамилия гида:" />
             <TextBox x:Name="GuideLastNameTextBox"/>
 
             <Button Content="Сохранить" Click="SaveButton_Click" Margin="0,10,0,0"/>

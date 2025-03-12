@@ -1,19 +1,19 @@
 ﻿<Window x:Class="TravelAgency.AddViews.AddTourWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Добавить тур" Height="450" Width="800">
+        Title="Добавить тур" Height="450" Width="800" Background="{StaticResource PrimaryBrush}" >
     <Grid>
         <StackPanel Margin="20">
-            <TextBlock Text="Название тура:" />
-            <TextBox x:Name="TourNameTextBox"/>
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Название тура:" />
+            <TextBox  x:Name="TourNameTextBox"/>
 
-            <TextBlock Text="ID страны:" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="ID страны:" />
             <TextBox x:Name="CountryIDTextBox"/>
 
-            <TextBlock Text="Время пребывания (дни):" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Время пребывания (дни):" />
             <TextBox x:Name="StayTimeTextBox"/>
 
-            <TextBlock Text="Цена:" />
+            <TextBlock Foreground="White" FontWeight="Bold" Text="Цена:" />
             <TextBox x:Name="PriceTextBox"/>
 
             <Button Content="Сохранить" Click="SaveButton_Click" Margin="0,10,0,0"/>
