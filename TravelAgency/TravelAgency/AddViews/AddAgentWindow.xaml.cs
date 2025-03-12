@@ -43,7 +43,7 @@ namespace TravelAgency.AddViews
             if (success)
             {
                 MessageBox.Show("Агент добавлен!", "Успех", MessageBoxButton.OK, MessageBoxImage.Information);
-                this.DialogResult = true; // Закрываем окно с результатом
+                this.DialogResult = true;
                 this.Close();
             }
             else

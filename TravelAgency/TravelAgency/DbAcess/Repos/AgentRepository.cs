@@ -107,12 +107,12 @@ namespace TravelAgency.DbAcess.Repos
                 {
                     connection.Open();
                     int rowsAffected = command.ExecuteNonQuery();
-                    return rowsAffected > 0; // Возвращает true, если агент был добавлен
+                    return rowsAffected > 0; 
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Ошибка при добавлении агента: {ex.Message}");
-                    return false; // Возвращает false в случае ошибки
+                    return false; 
                 }
             }
         }
@@ -130,12 +130,12 @@ namespace TravelAgency.DbAcess.Repos
                 {
                     connection.Open();
                     int rowsAffected = command.ExecuteNonQuery();
-                    return rowsAffected > 0; // Возвращает true, если агент был удален
+                    return rowsAffected > 0; 
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine($"Ошибка при удалении агента: {ex.Message}");
-                    return false; // Возвращает false в случае ошибки
+                    return false; 
                 }
             }
         }
