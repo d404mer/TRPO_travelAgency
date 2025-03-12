@@ -6,13 +6,20 @@
         xmlns:local="clr-namespace:TravelAgency"
         mc:Ignorable="d"
         Title="КУДАхтер. Выбор между курицей и рыбой очевиден"
-        Height="450" Width="800">
+
+        Height="550" Width="1000">
+
+
     <Grid Background="{StaticResource PrimaryBrush}">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="93*"/>
+            <ColumnDefinition Width="80*"/>
             <ColumnDefinition Width="307*"/>
         </Grid.ColumnDefinitions>
-        <StackPanel Grid.Column="0" Margin="15,0,0,0" VerticalAlignment="Center">
+        <StackPanel Grid.Column="0" 
+                    Margin="15,0,0,0" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    >
         <Button Content="Бронирование" Width="150" Click="ShowBooking"/>
         <Button Content="Туры" Width="150" Click="ShowTours"/>
         <Button Content="Страны" Width="150" Click="ShowCountries"/>

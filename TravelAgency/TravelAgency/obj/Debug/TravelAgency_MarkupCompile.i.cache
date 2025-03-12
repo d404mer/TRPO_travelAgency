@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\App.xaml
-12-1343749982
+2349697164
 
-19-225056905
+37-1551257105
 13-1310406943
-AddViews\AddAgentWindow.xaml;EditViews\EditAgentWindow.xaml;MainWindow.xaml;Style.xaml;UserControls\AgentsView.xaml;UserControls\BookingView.xaml;UserControls\CountriesView.xaml;UserControls\GuidesView.xaml;UserControls\HotelsView.xaml;UserControls\ReportsView.xaml;UserControls\TourGuidesView.xaml;UserControls\ToursView.xaml;
+AddViews\AddAgentWindow.xaml;AddViews\AddBookWindow.xaml;AddViews\AddCountryWindow.xaml;AddViews\AddGuideTour.xaml;AddViews\AddGuideWindow.xaml;AddViews\AddHotelWindow.xaml;AddViews\AddTourWindow.xaml;EditViews\EditAgentWindow.xaml;EditViews\EditBookWindow.xaml;EditViews\EditCountryWindow.xaml;EditViews\EditGuideWindow.xaml;EditViews\EditHotelWindow.xaml;EditViews\EditTourWindow.xaml;MainWindow.xaml;Style.xaml;UserControls\AgentsView.xaml;UserControls\BookingView.xaml;UserControls\CountriesView.xaml;UserControls\GuidesView.xaml;UserControls\HotelsView.xaml;UserControls\ReportsView.xaml;UserControls\TourGuidesView.xaml;UserControls\ToursView.xaml;
 
 True
 

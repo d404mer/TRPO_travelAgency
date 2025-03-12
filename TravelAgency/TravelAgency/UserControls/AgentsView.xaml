@@ -7,23 +7,31 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <DataGrid x:Name="AgentsDataGrid" Margin="10"
+        <Grid.RowDefinitions>
+            <RowDefinition Height="197*"/>
+            <RowDefinition Height="28*"/>
+        </Grid.RowDefinitions>
+        
+        
+        
+        <DataGrid x:Name="AgentsDataGrid" Margin="10,10,10,10"
                   AutoGenerateColumns="False" IsReadOnly="True"
-                  AlternatingRowBackground="LightGray"
                   SelectionMode="Single" 
+                  RowHeaderWidth="0"
                   SelectionChanged="AgentsDataGrid_SelectionChanged"
-                  MouseDoubleClick="AgentsDataGrid_MouseDoubleClick">
+                  MouseDoubleClick="AgentsDataGrid_MouseDoubleClick"
+                  Grid.Row="0">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Логин" Binding="{Binding Agent_Name}" Width="Auto"/>
-                <DataGridTextColumn Header="Имя" Binding="{Binding Name}" Width="Auto"/>
-                <DataGridTextColumn Header="Фамилия" Binding="{Binding Last_Name}" Width="Auto"/>
-                <DataGridTextColumn Header="Роль" Binding="{Binding Role}" Width="Auto"/>
-                <DataGridTextColumn Header="Телефон" Binding="{Binding Phone_Number}" Width="150"/>
+                <DataGridTextColumn Header="Логин     " Binding="{Binding Agent_Name}" Width="Auto"/>
+                <DataGridTextColumn Header="Имя       " Binding="{Binding Name}" Width="Auto"/>
+                <DataGridTextColumn Header="Фамилия     " Binding="{Binding Last_Name}" Width="Auto"/>
+                <DataGridTextColumn Header="Роль           " Binding="{Binding Role}" Width="Auto"/>
+                <DataGridTextColumn Header="Телефон   " Binding="{Binding Phone_Number}" Width="150"/>
                 <DataGridTextColumn Header="Email" Binding="{Binding Email}" Width="200"/>
             </DataGrid.Columns>
         </DataGrid>
 
-        <StackPanel Orientation="Horizontal" Margin="10" VerticalAlignment="Bottom">
+        <StackPanel Orientation="Horizontal" Margin="10,7,10,0" VerticalAlignment="Top" Grid.Row="1">
             <Button Content="Добавить агента" Click="AddAgentButton_Click" Margin="5"/>
             <Button Content="Удалить агента" Click="DeleteAgentButton_Click" Margin="5"/>
         </StackPanel>

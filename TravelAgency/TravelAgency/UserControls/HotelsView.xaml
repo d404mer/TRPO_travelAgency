@@ -1,4 +1,4 @@
-﻿<UserControl x:Class="TravelAgency.UserControls.HotelsView"
+﻿<UserControl x:Class="TravelAgency.UserControls.HotelView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -7,6 +7,31 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="197*"/>
+            <RowDefinition Height="28*"/>
+        </Grid.RowDefinitions>
+
+        <!-- DataGrid для отображения данных об отелях -->
+        <DataGrid x:Name="HotelsDataGrid" Margin="10,10,10,10"
+              AutoGenerateColumns="False" IsReadOnly="True"
+              SelectionMode="Single" 
+              RowHeaderWidth="0"
+              SelectionChanged="HotelsDataGrid_SelectionChanged"
+              MouseDoubleClick="HotelsDataGrid_MouseDoubleClick"
+              Grid.Row="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID Отеля" Binding="{Binding Hotel_ID}" Width="Auto"/>
+                <DataGridTextColumn Header="Название" Binding="{Binding Hotel_Name}" Width="Auto"/>
+                <DataGridTextColumn Header="Звезды" Binding="{Binding Stars}" Width="Auto"/>
+                <DataGridTextColumn Header="Цена за ночь" Binding="{Binding Price_Per_Night}" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Панель с кнопками для добавления/удаления отеля -->
+        <StackPanel Orientation="Horizontal" Margin="10,7,10,0" VerticalAlignment="Top" Grid.Row="1">
+            <Button Content="Добавить отель" Click="AddHotelButton_Click" Margin="5"/>
+            <Button Content="Удалить отель" Click="DeleteHotelButton_Click" Margin="5"/>
+        </StackPanel>
     </Grid>
 </UserControl>

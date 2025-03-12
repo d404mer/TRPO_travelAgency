@@ -7,6 +7,33 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-            
+        <Grid.RowDefinitions>
+            <RowDefinition Height="197*"/>
+            <RowDefinition Height="28*"/>
+        </Grid.RowDefinitions>
+
+        <!-- DataGrid для отображения данных о бронированиях -->
+        <DataGrid x:Name="BookingsDataGrid" Margin="10,10,10,10"
+              AutoGenerateColumns="False" IsReadOnly="True"
+              SelectionMode="Single" 
+              RowHeaderWidth="0"
+              SelectionChanged="BookingsDataGrid_SelectionChanged"
+              MouseDoubleClick="BookingsDataGrid_MouseDoubleClick"
+              Grid.Row="0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID Бронирования" Binding="{Binding Book_ID}" Width="Auto"/>
+                <DataGridTextColumn Header="ID Агента" Binding="{Binding Agent_ID}" Width="Auto"/>
+                <DataGridTextColumn Header="ID Тура" Binding="{Binding Tour_ID}" Width="Auto"/>
+                <DataGridTextColumn Header="Дата бронирования" Binding="{Binding Date_Of_Book}" Width="Auto"/>
+                <DataGridTextColumn Header="ID Отеля" Binding="{Binding Hotel_ID}" Width="Auto"/>
+                <DataGridTextColumn Header="Цена" Binding="{Binding Price}" Width="150"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- Панель с кнопками для добавления/удаления бронирования -->
+        <StackPanel Orientation="Horizontal" Margin="10,7,10,0" VerticalAlignment="Top" Grid.Row="1">
+            <Button Content="Добавить бронирование" Click="AddBookingButton_Click" Margin="5"/>
+            <Button Content="Удалить бронирование" Click="DeleteBookingButton_Click" Margin="5"/>
+        </StackPanel>
     </Grid>
 </UserControl>

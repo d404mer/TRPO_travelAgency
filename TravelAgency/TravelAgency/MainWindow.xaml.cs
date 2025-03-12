@@ -20,22 +20,22 @@ namespace TravelAgency
 
         private void ShowTours(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new ToursView();
+            ContentArea.Content = new TourView();
         }
 
         private void ShowCountries(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new CountriesView();
+            ContentArea.Content = new CountryView();
         }
 
         private void ShowGuides(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new GuidesView();
+            ContentArea.Content = new GuideView();
         }
 
         private void ShowHotels(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new HotelsView();
+            ContentArea.Content = new HotelView();
         }
 
         private void ShowAgents(object sender, RoutedEventArgs e)
@@ -45,12 +45,12 @@ namespace TravelAgency
 
         private void ShowTourGuides(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new TourGuidesView();
+            ContentArea.Content = new TourGuideView();
         }
 
         private void ShowReports(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new ReportsView();
+            ContentArea.Content = new ReportView();
         }
     }
 }

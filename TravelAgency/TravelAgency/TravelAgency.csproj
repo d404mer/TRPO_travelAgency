@@ -58,10 +58,50 @@
     <Compile Include="AddViews\AddAgentWindow.xaml.cs">
       <DependentUpon>AddAgentWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AddViews\AddBookWindow.xaml.cs">
+      <DependentUpon>AddBookWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddViews\AddCountryWindow.xaml.cs">
+      <DependentUpon>AddCountryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddViews\AddGuideTour.xaml.cs">
+      <DependentUpon>AddGuideTour.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddViews\AddGuideWindow.xaml.cs">
+      <DependentUpon>AddGuideWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddViews\AddHotelWindow.xaml.cs">
+      <DependentUpon>AddHotelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AddViews\AddTourWindow.xaml.cs">
+      <DependentUpon>AddTourWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="DbAcess\Models.cs" />
     <Compile Include="DbAcess\Repos\AgentRepository.cs" />
+    <Compile Include="DbAcess\Repos\BookingRepo.cs" />
+    <Compile Include="DbAcess\Repos\CountriesRepo.cs" />
+    <Compile Include="DbAcess\Repos\GuidesRepo.cs" />
+    <Compile Include="DbAcess\Repos\HotelsRepo.cs" />
+    <Compile Include="DbAcess\Repos\ReportsRepo.cs" />
+    <Compile Include="DbAcess\Repos\TourGuidesRepo.cs" />
+    <Compile Include="DbAcess\Repos\ToursRepo.cs" />
     <Compile Include="EditViews\EditAgentWindow.xaml.cs">
       <DependentUpon>EditAgentWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditViews\EditBookWindow.xaml.cs">
+      <DependentUpon>EditBookWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditViews\EditCountryWindow.xaml.cs">
+      <DependentUpon>EditCountryWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditViews\EditGuideWindow.xaml.cs">
+      <DependentUpon>EditGuideWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditViews\EditHotelWindow.xaml.cs">
+      <DependentUpon>EditHotelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="EditViews\EditTourWindow.xaml.cs">
+      <DependentUpon>EditTourWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControls\AgentsView.xaml.cs">
       <DependentUpon>AgentsView.xaml</DependentUpon>
@@ -91,7 +131,51 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="AddViews\AddBookWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddViews\AddCountryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddViews\AddGuideTour.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddViews\AddGuideWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddViews\AddHotelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="AddViews\AddTourWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EditViews\EditAgentWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditViews\EditBookWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditViews\EditCountryWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditViews\EditGuideWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditViews\EditHotelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="EditViews\EditTourWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -171,6 +255,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="logo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

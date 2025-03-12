@@ -1,6 +1,7 @@
 ﻿
 
-FD:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\AddViews\AddAgentWindow.xaml;;
-FD:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\EditViews\EditAgentWindow.xaml;;
-FD:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\UserControls\AgentsView.xaml;;
+FD:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\AddViews\AddGuideWindow.xaml;;
+FD:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\UserControls\BookingView.xaml;;
+FD:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\UserControls\CountriesView.xaml;;
+FD:\CIT KAI\TRPO_travelAgency\TravelAgency\TravelAgency\UserControls\GuidesView.xaml;;
 

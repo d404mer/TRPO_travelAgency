@@ -43,7 +43,7 @@ namespace TravelAgency.DbAcess
     public string Role { get; set; }
     public string Phone_Number { get; set; }
     public string Email { get; set; }
-    public string Password { get; set; } // Добавлено свойство для пароля
+    public string Password { get; set; }
 }
 
     public class Hotel
@@ -54,7 +54,7 @@ namespace TravelAgency.DbAcess
         public decimal Price_Per_Night { get; set; }
     }
 
-    public class Book
+    public class Booking
     {
         public int Book_ID { get; set; }
         public string Agent_ID { get; set; }
